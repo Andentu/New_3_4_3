@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine(Semaphore.Red);  
         }
-        enum Semaphore : byte { 
+        enum Semaphore : int { 
             Red = 100, Yellow = 200, Green = 300}
     }
 }
