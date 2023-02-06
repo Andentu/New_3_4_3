@@ -6,5 +6,7 @@
         {
             
         }
+        enum Semaphore : byte { 
+            Red = 100, Yellow = 200, Green = 300}
     }
 }
